@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-heading: "Sen", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-content .hearder-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  align-items: center;
+}
+.main-content .diachi {
+  color: #0a0a0a;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  padding-left: 100px;
+}
+.main-content .diachi strong {
+  color: #0a0a0a;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.86;
+}
+
+.main-content .logo {
+  width: auto;
+  height: 84px;
+}
+.main-content .search-box {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 1%;
+  border-radius: 32px;
+  box-shadow: (100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.main-content .search-box input {
+  border: 0;
+  background-color: transparent;
+  font-size: 1.6rem;
+  width: 0;
+  transition: 0.8s;
+}
+.main-content .search-box:hover input {
+  width: 20rem;
+}
+.main-content .search-box button {
+  padding: 10px;
+  border: 0;
+  background-color: #3c1053;
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.main-content .lienhe {
+  color: #0a0a0a;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  padding-right: 100px;
+}
+.main-content {
+  width: 1400px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background: #fafad2;
+}
+.header.fixed {
+  z-index: 1;
+  position: sticky;
+  top: -193px;
+}
+
+.header .body {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+.header .body .khauhieu {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.67;
+  font-family: var(--font-heading);
+  padding: 0px 40px;
+}
+.header .body h3 {
+  font-size: 2.8rem;
+  color: #f01c24;
+}
+.header .body h5 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #555555;
+}
+.nav {
+  display: flex;
+  margin-left: auto;
+  padding: 20px;
+  background: #ff0000;
+  justify-content: center;
+}
+.nav ul {
+  display: flex;
+}
+
+.nav a {
+  position: relative;
+  color: #fffcf4;
+  font-size: 2.2rem;
+  padding: 0px 10px 10px 50px;
+}
+
+.nav a:hover {
+  color: #000011;
+  font-weight: 600;
+  text-shadow: 1px 0 0 currentColor;
+}
+footer {
+    background: #fafad2;
+    padding: 96px 135px 0;
+  }
+  .footer {
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+    display: flex;
+  }
+  .row {
+    display: flex;
+  }
+  .footer .row .collum {
+    width: 25%;
+  }
+  
+  .footer .slogan {
+    margin-top: 18px;
+    max-width: 267px;
+    color: #171100;
+    font-size: 2rem;
+  }
+  
+  .footer .linklogo {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+  }
+  
+  .footer .icon {
+    width: 24px;
+    height: 24px;
+  }
+  .footer .diachi {
+    padding-bottom: 14px;
+    padding-right: 48px;
+    display: inline-block;
+    border-bottom: 1px solid #59554b;
+    color: #171100;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.75;
+  }
+  
+  .footer .ullist {
+    margin-top: 28px;
+  }
+  .footer .ullist p {
+    margin-bottom: 12px;
+    color: #171100;
+    font-size: 1.4rem;
+    line-height: 1.86;
+  }
+  
+  .footer .ullist strong {
+    color: #0a0a0a;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.86;
+  }
+  .footer .ttcuoi {
+    padding: 28px 0;
+    color: #0a0a0a;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.86;
+  }
+  .footer .footer-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero .tt {
+    margin: 0px 70px;
+  }
+  
